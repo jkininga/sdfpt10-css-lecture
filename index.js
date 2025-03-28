@@ -33,25 +33,13 @@ for (i = 0; i < m.length; i++) {
 
 // 4. getElementsByClassName - select the element with the class of image-container/ change the backgroundColor
 
-document.getElementsByClassName('contact-us-form').style.backgroundImage = 'blue';
-
-// let t = document.getElementsByClassName('contact-us-form'[0])
-// if(t){
-
-//     t.style.backgroundColor = 'purple'
-// }
-
-// for (i = 0; i < t.length; i++) {
-
-//     t[i].style.bgColor = "blue"
-   
-//     }
+ document.getElementsByClassName('image-container')[0].style.backgroundColor = 'yellow';
 
 
 // 5. getElementById - select the course outcomes and change the BG color
 
-//document.getElementById('course-outcomes').style.backgroundColor = 'green';
 
+document.getElementById('outcomes-section').style.backgroundColor = 'yellow';
 
 
 
